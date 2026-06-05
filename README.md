@@ -1,4 +1,4 @@
-# AI Data Extractor
+# AI Data Extractor https://ai-data-extractor-omega.vercel.app/
 
 A modern Next.js web application built with an **AI-first mindset**, demonstrating the ability to generate structured outputs (JSON) from unstructured, natural language text.
 
@@ -25,5 +25,3 @@ This project was created to showcase a practical implementation of LLM-based wor
 2. The frontend sends a POST request to the Next.js API Route.
 3. The server securely communicates with the LLM API using a strictly defined `system prompt` and `response_format: { type: "json_object" }`.
 4. The model returns a parsed JSON object containing extracted fields (Person, Company, Email, Phone, Summary).
-
-https://ai-data-extractor-omega.vercel.app/
