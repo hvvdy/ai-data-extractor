@@ -26,3 +26,4 @@ This project was created to showcase a practical implementation of LLM-based wor
 3. The server securely communicates with the LLM API using a strictly defined `system prompt` and `response_format: { type: "json_object" }`.
 4. The model returns a parsed JSON object containing extracted fields (Person, Company, Email, Phone, Summary).
 
+https://ai-data-extractor-omega.vercel.app/
